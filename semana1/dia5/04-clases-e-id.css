@@ -1,0 +1,26 @@
+.section1 {
+    background: burlywood;
+}
+
+
+/*Todos los elementos input que estren dentro de una lase .section1*/
+
+.section1 input {
+    background: lightpink;
+}
+
+.section2 {
+    background: darkkhaki;
+}
+
+section {
+    background: gold;
+}
+
+.letra_morada {
+    background: lightcoral;
+}
+
+.subrayado {
+    text-decoration: underline;
+}

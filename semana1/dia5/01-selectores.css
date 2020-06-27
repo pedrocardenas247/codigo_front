@@ -1,0 +1,27 @@
+/*Selector de Etiqueta*/
+
+label {
+    color: green;
+}
+
+h2 {
+    color: tomato;
+}
+
+
+/*selector de hijo a cualquier nivel*/
+
+
+/* todos los hijos quee sean li y esten dentro de un ul*/
+
+ul li {
+    color: purple;
+}
+
+
+/*selector de hijos directos, en primer en ni9vel*/
+
+ol>li,
+input {
+    color: blue;
+}

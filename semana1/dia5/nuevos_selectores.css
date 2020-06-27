@@ -1,0 +1,6 @@
+/* De todos los li en un mismo nivel 
+/* aplica al estilo al de la posicion 2 */
+
+li:nth-child(2) {
+    color: lightseagreen;
+}
