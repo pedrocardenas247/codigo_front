@@ -1,0 +1,38 @@
+/* Importando una fuente externa */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Raleway:wght@300&display=swap');
+
+/* Importando una fuente local */
+
+@font-face {
+    font-family: "harry";
+    src: url(./fonts/HARRYP__.TTF);
+}
+
+body {
+    background: #444;
+    color: white;
+}
+
+.titulo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.titulo2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.parrafo1 {
+    /*tipo de letra */
+    font-family: 'Quicksand', sans-serif;
+    /* Tamaño de letra por defecto es 16px en el 90% de los dispositivos */
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.fuenteharry {
+    font-family: "harry";
+    font-size: 100px;
+}
