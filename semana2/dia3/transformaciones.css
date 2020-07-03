@@ -1,0 +1,33 @@
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section1 {
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 50px auto 0 auto;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background: violet;
+    transform: scale(2) rotate(45deg);
+}
+
+.cuadrado:hover {
+    transform: scale(1);
+    filter: blur(2px);
+    border-radius: 20px;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: darkblue;
+    margin: auto;
+    transform: translate(100%, 100%);
+}

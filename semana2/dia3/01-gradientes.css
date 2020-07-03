@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html,
+body {
+    background: -webkit-linear-gradient(top, blue, black);
+    height: 100%;
+}
+
+.section1 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid magenta;
+    background: -webkit-linear-gradient(top, red, purple);
+}
+
+.section2 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid magenta;
+    background: -webkit-radial-gradient(center, circle, #63f034, #027d02);
+}
