@@ -1,0 +1,102 @@
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* definiendo variables */
+
+:root {
+    --naranja: orange;
+    --rosado: pink;
+    --crecer: 1;
+}
+
+header {
+    height: 60px;
+    background: -webkit-linear-gradient(right, teal, violet);
+}
+
+.principal {
+    width: 50%;
+    height: 500px;
+    margin: 50px auto 0 auto;
+    box-shadow: #bbb 0 0 20px;
+    position: relative;
+}
+
+.section1 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--naranja);
+    position: relative;
+    left: 50px;
+    top: 50px;
+    z-index: 200;
+}
+
+.section2 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--rosado);
+    position: relative;
+    left: 100px;
+    top: -60px;
+    z-index: 100;
+}
+
+.section3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    top: 200px;
+}
+
+.texto {
+    color: red;
+}
+
+.fab {
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    background: -webkit-linear-gradient(top, pink, blue);
+    /* Cuando la posicion es absoluta el padre debe tener posicion relativa*/
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.margen {
+    margin-right: 60px;
+    margin-bottom: 60px;
+    box-shadow: pink 0 0 20px;
+}
+
+.fab:hover {
+    transform: scale(var(--crecer));
+}
+
+.izquierdo {
+    left: 60px;
+    bottom: 60px;
+    box-shadow: red, 0, 0, 20px;
+    position: fixed;
+}
+
+.zoom-11 {
+    --crecer: 1.1;
+}
+
+.zoom-15 {
+    --crecer: 1.5;
+}
+
+.zoom-2 {
+    --crecer: 2;
+}
